@@ -1,0 +1,52 @@
+/* Basic styles for the body and section */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Styling the form elements */
+input {
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    background: transparent;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    .inputbox {
+        margin-bottom: 20px;
+    }
+}
